@@ -319,7 +319,7 @@ _comp_cmd_ssh()
             _comp_cmd_ssh__compgen_ciphers "$1"
             return
             ;;
-        -*[DeLpRW])
+        -*[DeLPpRW])
             return
             ;;
         -*[EFS])
