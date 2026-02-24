@@ -347,7 +347,7 @@ _comp_cmd_ssh()
             return
             ;;
         -*O)
-            _comp_compgen -- -W 'check forward cancel exit stop'
+            _comp_compgen -- -W 'check forward cancel proxy exit stop'
             return
             ;;
         -*o)
