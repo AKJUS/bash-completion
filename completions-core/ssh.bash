@@ -319,7 +319,7 @@ _comp_cmd_ssh()
             _comp_cmd_ssh__compgen_ciphers "$1"
             return
             ;;
-        -*[DeLpRW])
+        -*[DeLPpRW])
             return
             ;;
         -*[EFS])
@@ -347,7 +347,7 @@ _comp_cmd_ssh()
             return
             ;;
         -*O)
-            _comp_compgen -- -W 'check forward cancel exit stop'
+            _comp_compgen -- -W 'check forward cancel proxy exit stop'
             return
             ;;
         -*o)
